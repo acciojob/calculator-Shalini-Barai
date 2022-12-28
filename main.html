@@ -1,15 +1,42 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<title>Calculator</title>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+	<div class="container">
+		<input type="text" id="input">
+		<div class="boxes">
+			<button id="block1" class="btn" value="1" onclick="addme(this.value)">1</button>
+			<button id="block2" class="btn" value="2" onclick="addme(this.value)">2</button>
+			<button id="block3" class="btn" value="3" onclick="addme(this.value)">3</button>
+			<button id="plus" class="btn" value="+" onclick="addme(this.value)">+</button>
+		</div>
+		<div class="boxes">
+			<button id="block4" class="btn" value="4" onclick="addme(this.value)">4</button>
+			<button id="block5" class="btn" value="5" onclick="addme(this.value)">5</button>
+			<button id="block6" class="btn" value="6" onclick="addme(this.value)">6</button>
+			<button id="minus" class="btn" value="-" onclick="addme(this.value)">-</button>
+		</div>
+		<div class="boxes">
+			<button id="block7" class="btn" value="7" onclick="addme(this.value)">7</button>
+			<button id="block8" class="btn" value="8" onclick="addme(this.value)">8</button>
+			<button id="block9" class="btn" value="9" onclick="addme(this.value)">9</button>
+			<button id="multiply" class="btn" value="*" onclick="addme(this.value)">*</button>
+		</div>
+		<div class="boxes">
+			<button id="block0" class="btn" value="0" onclick="addme(this.value)">0</button>
+			<button id="dot" class="btn" value="." onclick="addme(this.value)">.</button>
+			<button id="clear" class="btn" value="Clear" onclick="reset()">Clear</button>
+			<button id="divide" class="btn" value="/" onclick="addme(this.value)">/</button>
+		</div>
+		<div class="boxes">
+			<button id="ans" value="Answer" onclick="ans()">Answer</button>	
+		</div>
+		</div>
+	<script type="text/javascript" src="./script.js">
+	</script>
 
 </body>
 

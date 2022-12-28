@@ -1,2 +1,46 @@
-
-/* Your CSS Code here. */
+.container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;;
+}
+.boxes{
+    display:flex;
+    
+}
+.boxes button{
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    width:65px;
+}
+.boxes #ans{
+    width: 150px;
+}
+.boxes #clr{
+    width: 150px;
+}
+#input{
+    height: 50px;
+    width:320px;
+}
+.boxes #plus{
+    font-size: 30px;
+}
+.boxes #minus{
+    font-size: 30px;
+}
+.boxes #multiply{
+    font-size: 30px;
+}
+.boxes #divide{
+    font-size: 30px;
+}
+.boxes #dot{
+    font-size: 50px;
+}
+#input{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: right;
+}
